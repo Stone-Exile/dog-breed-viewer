@@ -20,9 +20,10 @@ npm -v
 
 ## Installation
 
-Install dependencies:
+Clone the repository and install dependencies:
 
 ```bash
+git clone https://github.com/Stone-Exile/dog-breed-viewer.git
 cd <project-folder>
 npm install
 ```
