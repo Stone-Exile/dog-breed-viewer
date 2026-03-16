@@ -1,0 +1,17 @@
+.list {
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  background-color: var(--border);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+
+  overflow-y: auto;
+
+  .no_results {
+    background-color: var(--background-color);
+    margin: 0;
+    padding: var(--rectangle-padding);
+  }
+}

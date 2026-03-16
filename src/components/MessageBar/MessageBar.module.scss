@@ -1,0 +1,23 @@
+.message_bar {
+  border: 1px solid var(--border);
+  background-color: rgba(var(--background-color), 0.5);
+  border-radius: calc(var(--border-radius) / 2);
+  margin: var(--rectangle-padding);
+  padding: 5px 10px;
+  display: flex;
+  gap: calc(var(--gutter) / 2);
+
+  &.warning {
+    border-color: var(--warning);
+    background-color: var(--warning-background);
+  }
+
+  &.error {
+    border-color: var(--error);
+    background-color: var(--error-background);
+  }
+
+  .alert {
+    font-weight: bold;
+  }
+}

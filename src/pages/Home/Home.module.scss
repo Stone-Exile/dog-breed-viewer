@@ -1,0 +1,26 @@
+.home {
+  background-color: var(--border);
+  display: flex;
+  gap: 1px;
+
+  flex: 1 1 auto; 
+  overflow-y: auto; 
+
+  .breed_list,
+  .image_list {
+    background-color: var(--background-color);
+    padding: var(--rectangle-padding);
+  }
+
+  .breed_list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gutter);
+    width: 250px;
+  }
+
+  .image_list {
+    flex: 1 1 auto;
+    overflow-y: auto;
+  }
+}

@@ -1,0 +1,11 @@
+.list_item {
+  cursor: pointer;
+  background: var(--background-color);
+  padding: var(--rectangle-padding);
+  text-transform: capitalize;
+
+  &.selected {
+    color: var(--accent);
+    background-color: var(--accent-bg);
+  }
+}

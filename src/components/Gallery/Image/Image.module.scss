@@ -1,0 +1,15 @@
+.image {
+  border-radius: var(--border-radius);
+  border: 1px solid var(--accent-border);
+  background-color: var(--accent-bg);
+
+  aspect-ratio: 1 / 1;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: var(--border-radius);
+  }
+}

@@ -1,0 +1,1 @@
+export const RANDOM_IMAGES_COUNT = 3

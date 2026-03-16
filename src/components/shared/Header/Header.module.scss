@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--border);
+  padding: var(--rectangle-padding);
+
+  .logo_container {
+    border: 2px solid var(--accent-border);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 30px;
+    }
+  }
+}
